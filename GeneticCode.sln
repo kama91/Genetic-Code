@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticCode", "GeneticCode\GeneticCode.csproj", "{3ECB8DA1-4BC4-4753-A47C-FDDC90FD22DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ECB8DA1-4BC4-4753-A47C-FDDC90FD22DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECB8DA1-4BC4-4753-A47C-FDDC90FD22DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECB8DA1-4BC4-4753-A47C-FDDC90FD22DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECB8DA1-4BC4-4753-A47C-FDDC90FD22DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD066EC4-3C7B-4863-98F3-97D6E1AAFD62}
+	EndGlobalSection
+EndGlobal

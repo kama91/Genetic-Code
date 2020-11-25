@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GeneticCode/bin/Debug
+/GeneticCode/obj/Debug
+/.vs/GeneticCode/v16
