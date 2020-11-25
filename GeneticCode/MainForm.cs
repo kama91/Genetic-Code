@@ -14,22 +14,26 @@ namespace GeneticCode
         private void ShowToGridView(IReadOnlyList<GeneticCode.GeneticStruct> geneticStructs)
         {
             if (geneticStructs == null) return;
+            
             _gridView.RowCount = geneticStructs.Count;
+            
             for (var i = 0; i < _gridView.RowCount; i++)
-            for (var j = 0; j < _gridView.ColumnCount; j++)
             {
-                _gridView.Rows[i].Cells[0].Value = i + 1;
-                switch (j)
+                for (var j = 0; j < _gridView.ColumnCount; j++)
                 {
-                    case 1:
-                        _gridView.Rows[i].Cells[j].Value = $"{geneticStructs[i].A}";
-                        break;
-                    case 2:
-                        _gridView.Rows[i].Cells[j].Value = $"{geneticStructs[i].B}";
-                        break;
-                    case 3:
-                        _gridView.Rows[i].Cells[j].Value = $"{geneticStructs[i].C}";
-                        break;
+                    _gridView.Rows[i].Cells[0].Value = i + 1;
+                    switch (j)
+                    {
+                        case 1:
+                            _gridView.Rows[i].Cells[j].Value = $"{geneticStructs[i].A}";
+                            break;
+                        case 2:
+                            _gridView.Rows[i].Cells[j].Value = $"{geneticStructs[i].B}";
+                            break;
+                        case 3:
+                            _gridView.Rows[i].Cells[j].Value = $"{geneticStructs[i].C}";
+                            break;
+                    }
                 }
             }
         }
